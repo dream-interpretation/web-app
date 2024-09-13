@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -9,8 +10,16 @@ export default function Home() {
         <div className="flex flex-col items-center justify-center text-center">
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold">What are your dreams telling you?</h1>
           <p className="text-sm md:text-lg text-gray-600 mt-4 md:mt-6">Share your dream for a free, in-depth analysis.</p>
+          <div className="mt-8 animate-bounce" style={{ animation: 'bounce 3s infinite' }}>
+            <Image
+              src="/robot.png"
+              alt="Cute Robot"
+              width={200}
+              height={200}
+            />
+          </div>
         </div>
-        <Card className="w-full max-w-[700px] mx-auto mt-8 md:mt-12">
+        <Card className="w-full max-w-[700px] mx-auto mt-8 md:mt-8">
           <CardContent className="space-y-4 p-4 md:p-8">
             <Card className="bg-gray-100 dark:bg-gray-700">
               <CardHeader className="pb-2">
