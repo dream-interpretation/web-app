@@ -32,18 +32,26 @@ export default function Home() {
             <div className="space-y-4">
               <Card className="bg-purple-50 dark:bg-purple-900 w-full">
                 <CardHeader className="pb-2">
-                  <CardTitle className="text-purple-600 dark:text-purple-200 text-sm md:text-base text-right">Dreamer 😴 </CardTitle>
+                  <CardTitle className="text-purple-600 dark:text-purple-200 text-right text-sm md:text-base">
+                    Dreamer 😴
+                  </CardTitle>
                 </CardHeader>
                 <CardContent className="pt-0">
-                  <p className="text-purple-500 dark:text-purple-300 text-sm md:text-base text-right">I was lost in a dark forest, but suddenly I saw a bright light in the distance. As I walked towards the light, an old man appeared and handed me a book. The pages of the book were blank, but as I touched them, words began to appear.</p>
+                  <p className="text-purple-500 dark:text-purple-300 text-right text-sm md:text-base">
+                    I was lost in a dark forest, but suddenly I saw a bright light in the distance. As I walked towards the light, an old man appeared and handed me a book. The pages of the book were blank, but as I touched them, words began to appear.
+                  </p>
                 </CardContent>
               </Card>
               <Card className="bg-gray-100 dark:bg-gray-700">
                 <CardHeader className="pb-2">
-                  <CardTitle className="text-gray-600 dark:text-gray-200 text-sm md:text-base">DreamyBot 🤖</CardTitle>
+                  <CardTitle className="text-gray-600 dark:text-gray-200 text-sm md:text-base">
+                    DreamyBot 🤖
+                  </CardTitle>
                 </CardHeader>
                 <CardContent className="pt-0">
-                  <p className="text-gray-500 dark:text-gray-300 text-sm md:text-base">What a captivating adventure! It sounds like you experienced quite a journey in that dream. Walking through a dark forest often represents feelings of uncertainty or confusion in waking life, while the bright light symbolizes hope, clarity, or a guiding force leading you to a better understanding of yourself or your situation. </p>
+                  <p className="text-gray-500 dark:text-gray-300 text-sm md:text-base">
+                    What a captivating adventure! It sounds like you experienced quite a journey in that dream. Walking through a dark forest often represents feelings of uncertainty or confusion in waking life, while the bright light symbolizes hope, clarity, or a guiding force leading you to a better understanding of yourself or your situation.
+                  </p>
                 </CardContent>
               </Card>
             </div>
