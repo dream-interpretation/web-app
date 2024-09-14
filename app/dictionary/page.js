@@ -31,7 +31,7 @@ export default function Dictionary({ searchParams }) {
                 </div>
                 <div className="flex justify-center flex-wrap gap-1 sm:gap-2 mb-8 md:mb-10 lg:mb-12">
                     {englishAlphabet.map((letter) => (
-                        <Link key={letter} href={`/dictionary?alphabet=${letter}`}>
+                        <Link key={letter} href={`/dictionary${currentLetter === letter ? '' : `?alphabet=${letter}`}`}>
                             <Button
                                 variant={currentLetter === letter ? "default" : "outline"}
                                 className="w-8 h-8 sm:w-10 sm:h-10 text-xs sm:text-sm"

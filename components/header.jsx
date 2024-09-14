@@ -7,7 +7,7 @@ import { MenuItem } from "./menu-item";
 import { MobileMenu } from "./mobile-menu";
 
 const MENU_ITEMS = [
-  { href: "/blogs", label: "Blogs" },
+  { href: "/", label: "AI Dream Interpreter" },
   { href: "/dictionary", label: "Dictionary" },
 ];
 

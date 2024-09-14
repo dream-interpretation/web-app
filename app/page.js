@@ -32,12 +32,12 @@ export default function Home() {
             <div className="space-y-4">
               <Card className="bg-purple-50 dark:bg-purple-900 w-full">
                 <CardHeader className="pb-2">
-                  <CardTitle className="text-purple-600 dark:text-purple-200 text-right text-sm md:text-base">
+                  <CardTitle className="text-purple-600 dark:text-purple-200 text-left text-sm md:text-base">
                     Dreamer 😴
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="pt-0">
-                  <p className="text-purple-500 dark:text-purple-300 text-right text-sm md:text-base">
+                  <p className="text-purple-500 dark:text-purple-300 text-left text-sm md:text-base">
                     I was lost in a dark forest, but suddenly I saw a bright light in the distance. As I walked towards the light, an old man appeared and handed me a book. The pages of the book were blank, but as I touched them, words began to appear.
                   </p>
                 </CardContent>
