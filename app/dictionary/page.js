@@ -43,7 +43,7 @@ export default function Dictionary({ searchParams }) {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
                     {dreamSymbols.map((symbol, index) => (
-                        <Link href={`/dictionary/details/${symbol.title.toLowerCase()}`} key={index}>
+                        <Link href={`/dictionary/${index + 1}`} key={index}>
                             <Card className="cursor-pointer hover:shadow-lg transition-shadow duration-300 flex flex-col h-full">
                                 <CardHeader className="p-0">
                                     <Image src={symbol.image} alt={symbol.title} width={300} height={300} className="w-full h-48 sm:h-56 md:h-64 object-cover rounded-t-lg" />
